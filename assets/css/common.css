@@ -1,0 +1,17 @@
+.manrope {
+    font-family: 'Manrope', sans-serif;
+}
+
+html {
+    background-color: #ffffff;
+    height: 100%;
+}
+
+
+body {
+    margin: 0;
+    height: 100%;
+    background-color: #f6f5f5;
+    position: relative;
+    font-family: 'Manrope', sans-serif;
+}

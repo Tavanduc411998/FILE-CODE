@@ -1,0 +1,159 @@
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1ca64d;
+    padding: 0;
+    margin: 0;
+}
+
+.logo-name {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    margin-left: 16px;
+
+}
+
+.logo-name img {
+    width: 10%;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.logo-name p {
+    margin-left: 10px;
+}
+
+.login {
+    color: #fff;
+    margin-right: 16px;
+}
+
+/* end header */
+
+/* body */
+.body-container {
+    padding: 0 20px;
+
+}
+
+/* button group */
+.button-group {
+    padding: 10px 0;
+}
+
+.button-box {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 40px;
+}
+
+.button-group input {
+    background-color: #fff;
+    flex: 1;
+    border: none;
+    padding: 12px 0;
+    border-radius: 40px;
+    font-family: 'Manrope', sans-serif;
+}
+
+.button-group .active {
+    background-color: #1ca64d;
+    color: #fff;
+    animation: fillAnimation 0.5s ease-in-out;
+}
+
+@keyframes fillAnimation {
+    from {
+        background-color: #fff;
+
+    }
+
+    to {
+        background-color: #1ca64d;
+
+    }
+}
+
+
+/* end button group */
+
+/* title and tool */
+.title-and-tool-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-and-tool-box .title {
+    font-weight: 600;
+}
+
+/* end title and tool */
+
+/* info */
+.info-container {
+    padding: 12px 12px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 12px 0;
+}
+
+/* info name */
+.info-name {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.info-name p {
+    margin: 12px 0 12px 8px;
+}
+
+/* info account */
+.info-account-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-account-box .left-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.info-account-box .left-box i {
+    margin-right: 8px;
+}
+
+.info-account-box .left-box p {
+    margin: 8px 0;
+}
+
+.info-account-box .right-box {
+    font-weight: 700;
+}
+
+hr {
+    border-top: 1px dashed red;
+}
+
+.info-btn {
+    font-size: 14px;
+    background-color: #1ca64d;
+    color: #fff;
+    border: none;
+    width: 100%;
+    padding: 12px 0;
+    border-radius: 40px;
+    font-weight: 700;
+}
+
+/* end info */
